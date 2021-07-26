@@ -1319,6 +1319,17 @@ nnoremap <leader>ye yg_
 nnoremap <silent> zJ :call NextClosedFold('j')<cr>
 nnoremap <silent> zK :call NextClosedFold('k')<cr>
 
+" resize a fold
+nnoremap <leader>zk [zmt]zms[zzd`tjV`szf
+
+" open a manual fold and highlight the fold area
+nnoremap <leader>zk zo[zV]z
+
+" nnoremap <leader>zk [zmt]zms[zzd
+" nnoremap <leader>zk V]z
+" nnoremap <leader>zk 
+" nnoremap <leader>zk zo[zV]z
+
 " easymotion
 " <Leader>q{char} to move to {char}
 " map  <Leader>ef <Plug>(easymotion-bd-f)
